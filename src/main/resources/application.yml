@@ -13,3 +13,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     show-sql: true
+  main:
+    allow-circular-references: true

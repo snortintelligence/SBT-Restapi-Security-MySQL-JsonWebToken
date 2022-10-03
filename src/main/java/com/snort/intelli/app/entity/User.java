@@ -20,6 +20,7 @@ public class User {
 	private String username;
 	private String firstName;
 	private String lastName;
+	private String userPassword;
 	
 	//user has some roles
 	@ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
